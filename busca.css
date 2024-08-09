@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inspiration&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #C6ACCA;
+    padding: 20px;
+    display: flex;
+    font-family: "Inika", serif;
+}
+
+header svg{
+    width: 200px;
+    height: 80px;
+}
+
+header nav ul{
+    margin-top: 30px;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 65px;
+}
+
+header nav ul li a{
+    background-color: #542D5A;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form input {
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+form input::placeholder{
+    font-family: "Inika", serif;
+    padding: 10px;
+}
+
+form svg{
+    width: 15px;
+    margin-left: -40px;
+    vertical-align: middle;
+}
+
+#top {
+    width: 100%;
+    height: 50px;
+    background-color: #542D5A;
+    margin-top: 50px;
+    border-radius: 30px;    
+}
+
+#top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    list-style: none;
+}
+
+#top ul li{
+    margin-top: 15px;
+    font-family: "Inika", serif;
+    font-size: 18px;
+}
+
+.faixa-produtos{
+    background-color: #C6ACCA;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr 2fr 1fr 2fr 2fr 2fr;
+    grid-template-rows: 100%;
+}
+
+.faixa-produtos img{
+    width: 190px;
+    border-radius: 10px;
+}
+
+.brownie{
+    grid-column: 2;
+}
+
+.cookie{
+    grid-column: 4;
+}
+
+.cookie img {
+    width: 240px;
+}
+
+.macaron {
+    grid-column: 6;
+}
+
+.macaron img{
+    width: 160px;
+}
+
+.cupcake {
+    grid-column: 7;
+    margin-left: 20px;
+}
+
+
+.faixa-produtos-2{
+    background-color: #C6ACCA;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: 100%;
+    margin-bottom: 50px;
+}
+
+.faixa-produtos-2 img{
+    border-radius: 18px;
+}
+
+.cupcake img{
+    width: 155px;
+}
+
+.trufa{
+    grid-column: 8;
+}
+
+.trufa img{
+    width: 135px;
+    margin-left: 50px;
+}
+
+.copo{
+    grid-column: 2;
+}
+
+.copo img{
+    width: 265px; 
+}
+
+.bolo{
+    grid-column: 4;
+}
+
+.bolo img{
+    width: 235px;
+}
+
+.barra{
+    grid-column: 6;
+}
+
+.barra img{
+    width: 190px;
+    margin-left: 20px;
+}
+
+.b-recheado{
+    grid-column: 8;
+}
+
+.b-recheado img{
+    width: 300px;
+    margin-right: 50px;
+}

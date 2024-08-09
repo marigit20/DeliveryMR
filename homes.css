@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: #C6ACCA;
+    padding: 20px;
+    display: flex;
+    font-family: "Inika", serif;
+}
+
+header svg{
+    width: 200px;
+    height: 80px;
+}
+
+header nav ul{
+    margin-top: 30px;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 65px;
+}
+
+header nav ul li a{
+    background-color: #542D5A;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.geral{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 100%;
+}
+
+.formulario{
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario h1{
+    font-family: "Inika", serif;
+    font-size: 50px;
+    margin-left: 90px;
+    letter-spacing: 1px;
+}
+.formulario li{
+    font-family: "Inika", serif;
+    font-size: 25px;
+    margin-top: 20px;
+    display: block ;
+    overflow:visible;
+}
+.formulario p{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.inp-nome{
+    width: 240px;
+    border-radius: 15px;
+    background: #542D5A;
+    height: 35px;
+    color: white;
+    font-family:"inika", sans-serif;
+    font-size:17px;
+}
+.inp-nome::placeholder{
+    color: white;
+}
+.inp-email{
+    width: 240px;
+    border-radius: 15px;
+    background: #542D5A;
+    height: 35px;
+    color: white;
+    font-family:"inika", sans-serif;
+    font-size:17px;
+}
+.inp-email::placeholder{
+    color: white;
+}
+.inp-obs{
+    margin-left: 160px;
+    margin-bottom: 25px;
+    width: 170px;
+    height: 150px;
+    border-radius: 15px;
+    background: #542D5A;
+    color: white;
+
+}
+.formulario button{
+    background: #C6ACCA;
+    color: #542D5A;
+    border-radius: 15px;
+    width: 170px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.fotos{
+    grid-column-start: 2;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.doce{
+    width: 564px;
+    height: 543px;
+}
